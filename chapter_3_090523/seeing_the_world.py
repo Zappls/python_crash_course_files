@@ -1,0 +1,23 @@
+places = ["austin", "london", "paris", "stockholm", "helsinki"]
+print(places)
+print(sorted(places))
+print("\nThe list is still in original order:")
+print(places)
+print("\nThis is the list in reverse alphabetical order:")
+print(sorted(places, reverse = True))
+print("\nThe list is still in original order:")
+print(places)
+reversed(places)
+print("\nThe list is now in reversed order:")
+print(places)
+reversed(places)
+print("\nThe list is now in the original order again:")
+print(places)
+places.sort()
+print("\nThe list has been permanently sorted in alphabetical order:")
+print(places)
+places.sort(reverse = True)
+print("\nThe list has been permanently sorted in reverse alphabetical order:")
+print(places)
+
+
